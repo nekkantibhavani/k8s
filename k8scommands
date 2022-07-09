@@ -1,0 +1,9 @@
+kubectl apply -f podi.yml
+ kubectl get pods
+  kubectl get pods -o wide
+   kubectl describe pod testpod
+    kubectl logs -f testpod
+    kubectl logs -f testpod -c c00
+   kubectl delet pod testpod
+    kubectl delete pod testpod
+ kubectl get pods
